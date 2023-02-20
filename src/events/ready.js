@@ -25,7 +25,7 @@ export const execute = async (x, client) => {
     .catch(err => console.log("\x1b[31mDataBase login err: " + err))
 
 		    const activities = [
-      { name: `Mybots app`, type: 1 },
+      { name: `🔺 .gg/tipster`, type: 1 },
     ];
 
     let i = 0;

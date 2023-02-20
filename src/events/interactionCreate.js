@@ -3,7 +3,7 @@ import { readdirSync } from 'fs';
 export const name = "interactionCreate"
 export const execute = async (interaction, client) => {
   if (interaction.isCommand()) {
-    if (!interaction.member.permissions.has("Administrator")) return
+    // if (!interaction.member.permissions.has("Administrator")) return
     return client.commands.get(interaction.commandName)?.run(interaction, client)
   }
 
